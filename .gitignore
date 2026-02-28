@@ -1,0 +1,12 @@
+# Hugo build output
+public/
+resources/
+
+# Hugo module cache
+.hugo_build.lock
+
+# macOS
+.DS_Store
+
+# Temp/working files
+temp/

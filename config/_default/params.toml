@@ -1,0 +1,49 @@
+mainSections       = ["post"]
+featuredImageField = "image"
+rssFullContent     = true
+SortBy             = "default"
+
+[dateFormat]
+    published   = ":date_long"
+    lastUpdated = ":date_long"
+rssFullContent = true
+favicon        = ""
+
+[footer]
+    since = 2023
+
+[sidebar]
+    emoji    = "☕"
+    subtitle = "An archive of my coffee journey — reviews of specialty roasters, single origins, and blends from around Australia."
+
+[article]
+    toc         = false
+    readingTime = false
+
+    [article.list]
+        showTags = true
+
+    [article.license]
+        enabled = false
+
+[widgets]
+    homepage = [
+        { type = "search" },
+        { type = "archives", params = { limit = 5 } },
+        { type = "categories", params = { limit = 10 } },
+        { type = "tag-cloud", params = { limit = 15 } },
+    ]
+    page = []
+
+[comments]
+    enabled = false
+
+[colorScheme]
+    toggle  = true
+    default = "auto"
+
+[imageProcessing.cover]
+    enabled = true
+
+[imageProcessing.content]
+    enabled = true

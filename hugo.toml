@@ -1,0 +1,13 @@
+baseURL         = "https://coffee.damianm.com/"
+languageCode    = "en-au"
+title           = "Damian's Coffee Diary"
+hasCJKLanguage  = false
+
+defaultContentLanguage = "en"
+
+[pagination]
+    pagerSize = 10
+
+[permalinks]
+    post = "/p/:slug/"
+    page = "/:slug/"

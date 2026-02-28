@@ -1,0 +1,43 @@
+[[main]]
+    identifier = "home"
+    name       = "Home"
+    url        = "/"
+    weight     = 10
+
+    [main.params]
+        icon = "home"
+
+[[main]]
+    identifier = "about"
+    name       = "About"
+    url        = "/about/"
+    weight     = 20
+
+    [main.params]
+        icon = "user"
+
+[[main]]
+    identifier = "archives"
+    name       = "Archives"
+    url        = "/archives/"
+    weight     = 30
+
+    [main.params]
+        icon = "archives"
+
+[[main]]
+    identifier = "search"
+    name       = "Search"
+    url        = "/search/"
+    weight     = 40
+
+    [main.params]
+        icon = "search"
+
+[[social]]
+    identifier = "instagram"
+    name       = "Instagram"
+    url        = "https://www.instagram.com/damian.m/"
+
+    [social.params]
+        icon = "brand-instagram"
