@@ -5,7 +5,9 @@
       "Bash(hugo new:*)",
       "Bash(git clone:*)",
       "Bash(hugo build:*)",
-      "Bash(brew upgrade:*)"
+      "Bash(brew upgrade:*)",
+      "WebFetch(domain:www.instagram.com)",
+      "WebFetch(domain:api.instagram.com)"
     ]
   }
 }
