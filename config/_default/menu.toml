@@ -37,7 +37,7 @@
 [[social]]
     identifier = "instagram"
     name       = "Instagram"
-    url        = "https://www.instagram.com/damian.m/"
+    url        = "https://www.instagram.com/damianscoffeediary/"
 
     [social.params]
         icon = "brand-instagram"
